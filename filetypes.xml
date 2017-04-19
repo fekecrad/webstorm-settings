@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="php" type="PHP" />
+      <mapping ext="neon" type="PLAIN_TEXT" />
+      <mapping pattern="Map" type="TypeScript" />
+    </extensionMap>
+  </component>
+</application>
