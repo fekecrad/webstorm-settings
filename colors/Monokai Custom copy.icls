@@ -1,9 +1,8 @@
 <scheme name="Monokai Custom copy" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="10" />
-  <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
@@ -758,6 +757,12 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="919191" />
+        <option name="BACKGROUND" value="636363" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
