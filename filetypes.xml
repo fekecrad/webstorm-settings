@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="php" type="PHP" />
+      <mapping pattern="twaes`sf" type="PLAIN_TEXT" />
       <mapping pattern=".nycrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="twaes`sf" type="PLAIN_TEXT" />
+      <mapping ext="opts" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping pattern="Map" type="TypeScript" />
     </extensionMap>
