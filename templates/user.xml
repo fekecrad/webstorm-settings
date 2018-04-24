@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="test" value="import * as chai from 'chai';&#10;import * as chaiAsPromised from 'chai-as-promised';&#10;import { sandbox as sinonSandbox, SinonSandbox } from 'sinon';&#10;import { ApiResponse, StApi } from '../Api';&#10;import { setEnvironment } from '../Settings';&#10;import { cloneDeep } from '../Util';&#10;&#10;let sandbox: SinonSandbox;&#10;chai.use(chaiAsPromised);&#10;&#10;describe('', () =&gt; {&#10;&#9;before((done) =&gt; {&#10;&#9;&#9;setEnvironment({ stApiUrl: 'api', integratorApiKey: '987654321' });&#10;&#9;&#9;done();&#10;&#9;});&#10;&#10;&#9;beforeEach(() =&gt; {&#10;&#9;&#9;sandbox = sinonSandbox.create();&#10;&#9;});&#10;&#10;&#9;afterEach(() =&gt; {&#10;&#9;&#9;sandbox.restore();&#10;&#9;});&#10;&#10;&#9;describe('#getToursViator', () =&gt; {&#10;&#9;&#9;it('should correctly map tours response', () =&gt; {&#10;&#9;&#9;&#9;sandbox.stub(StApi, 'get').returns(new Promise&lt;ApiResponse&gt;((resolve) =&gt; {&#10;&#9;&#9;&#9;&#9;resolve(new ApiResponse(200, cloneDeep()));&#10;&#9;&#9;&#9;}));&#10;&#10;&#9;&#9;&#9;return chai.expect().to.deep.equal();&#10;&#9;&#9;});&#10;&#9;});&#10;});" description="SDK test template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
